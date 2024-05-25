@@ -9,7 +9,7 @@ import (
 	"gvisor.dev/gvisor/pkg/tcpip/network/ipv6"
 	"gvisor.dev/gvisor/pkg/tcpip/stack"
 
-	"github.com/xjasonlyu/tun2socks/v2/core/option"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/core/option"
 )
 
 const (

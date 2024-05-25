@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"golang.zx2c4.com/wireguard/tun"
+	"github.com/amnezia-vpn/amneziawg-go/tun"
 	gun "gvisor.dev/gvisor/pkg/tcpip/link/tun"
 )
 
