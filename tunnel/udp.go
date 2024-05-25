@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xjasonlyu/tun2socks/v2/common/pool"
-	"github.com/xjasonlyu/tun2socks/v2/core/adapter"
-	"github.com/xjasonlyu/tun2socks/v2/log"
-	M "github.com/xjasonlyu/tun2socks/v2/metadata"
-	"github.com/xjasonlyu/tun2socks/v2/proxy"
-	"github.com/xjasonlyu/tun2socks/v2/tunnel/statistic"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/common/pool"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/core/adapter"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/log"
+	M "github.com/amnezia-vpn/amnezia-tun2socks/v2/metadata"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/proxy"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/tunnel/statistic"
 )
 
 // _udpSessionTimeout is the default timeout for each UDP session.

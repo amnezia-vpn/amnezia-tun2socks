@@ -1,6 +1,6 @@
-module github.com/xjasonlyu/tun2socks/v2
+module github.com/amnezia-vpn/amnezia-tun2socks/v2
 
-go 1.22
+go 1.22.3
 
 require (
 	github.com/docker/go-units v0.5.0

@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	M "github.com/xjasonlyu/tun2socks/v2/metadata"
-	"github.com/xjasonlyu/tun2socks/v2/proxy/proto"
+	M "github.com/amnezia-vpn/amnezia-tun2socks/v2/metadata"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/proxy/proto"
 )
 
 var _ Proxy = (*Reject)(nil)

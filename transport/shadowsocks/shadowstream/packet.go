@@ -6,7 +6,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/xjasonlyu/tun2socks/v2/common/pool"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/common/pool"
 )
 
 // ErrShortPacket means the packet is too short to be a valid encrypted packet.
