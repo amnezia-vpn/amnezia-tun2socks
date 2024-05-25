@@ -3,6 +3,7 @@ module github.com/amnezia-vpn/amnezia-tun2socks/v2
 go 1.22.3
 
 require (
+	github.com/amnezia-vpn/amneziawg-go v0.2.11
 	github.com/docker/go-units v0.5.0
 	github.com/go-chi/chi/v5 v5.0.12
 	github.com/go-chi/cors v1.2.1
@@ -19,7 +20,6 @@ require (
 	golang.org/x/crypto v0.22.0
 	golang.org/x/sys v0.19.0
 	golang.org/x/time v0.5.0
-	golang.zx2c4.com/wireguard v0.0.0-20231211153847-12269c276173
 	gopkg.in/yaml.v3 v3.0.1
 	gvisor.dev/gvisor v0.0.0-20240405191320-0878b34101b5
 )
