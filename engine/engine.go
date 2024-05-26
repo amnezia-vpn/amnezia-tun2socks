@@ -60,6 +60,14 @@ func Insert(k *Key) {
 	_engineMu.Unlock()
 }
 
+func StartTun2Socks() error {
+	return start()
+}
+
+func StopTun2Socks() error {
+	return stop()
+}
+
 func start() error {
 	_engineMu.Lock()
 	if _defaultKey == nil {
