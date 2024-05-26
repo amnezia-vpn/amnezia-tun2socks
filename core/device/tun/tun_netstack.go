@@ -11,7 +11,7 @@ import (
 	"gvisor.dev/gvisor/pkg/tcpip/link/tun"
 	"gvisor.dev/gvisor/pkg/tcpip/stack"
 
-	"github.com/xjasonlyu/tun2socks/v2/core/device"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/core/device"
 )
 
 type TUN struct {

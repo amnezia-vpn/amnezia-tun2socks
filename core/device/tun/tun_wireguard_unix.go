@@ -3,7 +3,7 @@
 package tun
 
 import (
-	"golang.zx2c4.com/wireguard/tun"
+	"github.com/amnezia-vpn/amneziawg-go/tun"
 )
 
 const (
