@@ -9,7 +9,7 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/xjasonlyu/tun2socks/v2/transport/internal/bufferpool"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/transport/internal/bufferpool"
 )
 
 const Version = 0x04

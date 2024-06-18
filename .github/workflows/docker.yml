@@ -57,8 +57,8 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64
           tags: |
-            xjasonlyu/tun2socks:dev
-            ghcr.io/xjasonlyu/tun2socks:dev
+            amnezia-vpn/amnezia-tun2socks:dev
+            ghcr.io/amnezia-vpn/amnezia-tun2socks:dev
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
@@ -70,9 +70,9 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64
           tags: |
-            xjasonlyu/tun2socks:latest
-            xjasonlyu/tun2socks:${{ steps.shell.outputs.version }}
-            ghcr.io/xjasonlyu/tun2socks:latest
-            ghcr.io/xjasonlyu/tun2socks:${{ steps.shell.outputs.version }}
+            amnezia-vpn/amnezia-tun2socks:latest
+            amnezia-vpn/amnezia-tun2socks:${{ steps.shell.outputs.version }}
+            ghcr.io/amnezia-vpn/amnezia-tun2socks:latest
+            ghcr.io/amnezia-vpn/amnezia-tun2socks:${{ steps.shell.outputs.version }}
           cache-from: type=gha
           cache-to: type=gha,mode=max

@@ -27,7 +27,7 @@ formatters:
       sections:
         - standard
         - default
-        - prefix(github.com/xjasonlyu/tun2socks)
+        - prefix(github.com/amnezia-vpn/amnezia-tun2socks)
       custom-order: true
   exclusions:
     generated: lax

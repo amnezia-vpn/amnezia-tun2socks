@@ -7,10 +7,10 @@ import (
 	"io"
 	"net"
 
-	"github.com/xjasonlyu/tun2socks/v2/dialer"
-	M "github.com/xjasonlyu/tun2socks/v2/metadata"
-	"github.com/xjasonlyu/tun2socks/v2/proxy/proto"
-	"github.com/xjasonlyu/tun2socks/v2/transport/socks5"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/dialer"
+	M "github.com/amnezia-vpn/amnezia-tun2socks/v2/metadata"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/proxy/proto"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/transport/socks5"
 )
 
 var _ Proxy = (*Socks5)(nil)

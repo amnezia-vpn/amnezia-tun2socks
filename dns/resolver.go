@@ -3,7 +3,7 @@ package dns
 import (
 	"net"
 
-	"github.com/xjasonlyu/tun2socks/v2/dialer"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/dialer"
 )
 
 func init() {

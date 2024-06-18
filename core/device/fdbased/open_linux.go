@@ -5,7 +5,7 @@ import (
 
 	"gvisor.dev/gvisor/pkg/tcpip/link/fdbased"
 
-	"github.com/xjasonlyu/tun2socks/v2/core/device"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/core/device"
 )
 
 func open(fd int, mtu uint32, offset int) (device.Device, error) {

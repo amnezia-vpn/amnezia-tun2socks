@@ -13,14 +13,14 @@ import (
 	"gvisor.dev/gvisor/pkg/tcpip"
 	"gvisor.dev/gvisor/pkg/tcpip/stack"
 
-	"github.com/xjasonlyu/tun2socks/v2/core"
-	"github.com/xjasonlyu/tun2socks/v2/core/device"
-	"github.com/xjasonlyu/tun2socks/v2/core/option"
-	"github.com/xjasonlyu/tun2socks/v2/dialer"
-	"github.com/xjasonlyu/tun2socks/v2/log"
-	"github.com/xjasonlyu/tun2socks/v2/proxy"
-	"github.com/xjasonlyu/tun2socks/v2/restapi"
-	"github.com/xjasonlyu/tun2socks/v2/tunnel"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/core"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/core/device"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/core/option"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/dialer"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/log"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/proxy"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/restapi"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/tunnel"
 )
 
 var (
@@ -38,6 +38,14 @@ var (
 	// _defaultStack holds the default stack for the engine.
 	_defaultStack *stack.Stack
 )
+
+func StartTun2Socks() error {
+	return start()
+}
+
+func StopTun2Socks() error {
+	return stop()
+}
 
 // Start starts the default engine up.
 func Start() {

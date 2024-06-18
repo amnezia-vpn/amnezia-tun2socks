@@ -7,7 +7,7 @@ RUN apk add --update --no-cache make git \
     && make tun2socks
 
 FROM alpine:latest
-LABEL org.opencontainers.image.source="https://github.com/xjasonlyu/tun2socks"
+LABEL org.opencontainers.image.source="https://github.com/amnezia-vpn/amnezia-tun2socks"
 
 COPY docker/entrypoint.sh /entrypoint.sh
 COPY --from=builder /src/build/tun2socks /usr/bin/tun2socks

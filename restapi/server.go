@@ -13,8 +13,8 @@ import (
 	"github.com/go-chi/render"
 	"github.com/gorilla/websocket"
 
-	V "github.com/xjasonlyu/tun2socks/v2/internal/version"
-	"github.com/xjasonlyu/tun2socks/v2/tunnel/statistic"
+	V "github.com/amnezia-vpn/amnezia-tun2socks/v2/internal/version"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/tunnel/statistic"
 )
 
 var (
