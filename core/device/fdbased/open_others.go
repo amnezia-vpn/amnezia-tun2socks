@@ -1,4 +1,4 @@
-//go:build !(linux && amd64) && !(linux && arm64) && !windows
+//go:build !linux && !windows
 
 package fdbased
 
@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/xjasonlyu/tun2socks/v2/core/device"
-	"github.com/xjasonlyu/tun2socks/v2/core/device/iobased"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/core/device"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/core/device/iobased"
 )
 
 func open(fd int, mtu uint32) (device.Device, error) {
