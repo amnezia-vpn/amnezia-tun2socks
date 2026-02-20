@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math/bits"
 
-	"github.com/xjasonlyu/tun2socks/v2/internal/pool"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/internal/pool"
 )
 
 // Allocator for incoming frames, optimized to prevent overwriting

@@ -8,10 +8,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/xjasonlyu/tun2socks/v2/core/device"
-	"github.com/xjasonlyu/tun2socks/v2/core/device/fdbased"
-	"github.com/xjasonlyu/tun2socks/v2/core/device/tun"
-	"github.com/xjasonlyu/tun2socks/v2/proxy"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/core/device"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/core/device/fdbased"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/core/device/tun"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/proxy"
 )
 
 func parseRestAPI(s string) (*url.URL, error) {

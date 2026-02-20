@@ -3,8 +3,8 @@ package tunnel
 import (
 	"sync"
 
-	"github.com/xjasonlyu/tun2socks/v2/proxy/reject"
-	"github.com/xjasonlyu/tun2socks/v2/tunnel/statistic"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/proxy/reject"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/tunnel/statistic"
 )
 
 var (

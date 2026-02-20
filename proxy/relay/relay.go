@@ -15,11 +15,11 @@ import (
 	"github.com/go-gost/relay"
 	"github.com/gorilla/schema"
 
-	"github.com/xjasonlyu/tun2socks/v2/buffer"
-	"github.com/xjasonlyu/tun2socks/v2/dialer"
-	M "github.com/xjasonlyu/tun2socks/v2/metadata"
-	"github.com/xjasonlyu/tun2socks/v2/proxy"
-	"github.com/xjasonlyu/tun2socks/v2/proxy/internal/utils"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/buffer"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/dialer"
+	M "github.com/amnezia-vpn/amnezia-tun2socks/v2/metadata"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/proxy"
+	"github.com/amnezia-vpn/amnezia-tun2socks/v2/proxy/internal/utils"
 )
 
 var _ proxy.Proxy = (*Relay)(nil)

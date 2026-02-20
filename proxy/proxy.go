@@ -5,7 +5,7 @@ import (
 	"context"
 	"net"
 
-	M "github.com/xjasonlyu/tun2socks/v2/metadata"
+	M "github.com/amnezia-vpn/amnezia-tun2socks/v2/metadata"
 )
 
 type Proxy interface {
