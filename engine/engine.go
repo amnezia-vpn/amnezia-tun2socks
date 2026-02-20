@@ -42,11 +42,19 @@ var (
 	_icmpHandler adapter.NetworkHandler
 )
 
+func StartTun2Socks() error {
+	return start()
+}
+
 // Start starts the default engine up.
 func Start() {
 	if err := start(); err != nil {
 		log.Fatalf("[ENGINE] failed to start: %v", err)
 	}
+}
+
+func StopTun2Socks() error {
+	return stop()
 }
 
 // Stop shuts the default engine down.
